@@ -1,4 +1,7 @@
 <script setup>
+const config = useRuntimeConfig()
+const baseURL = config.app.baseURL
+
 const images = [
   'IMG_20240217_133633.jpg',
   'IMG_20240217_190752.jpg',
@@ -104,7 +107,7 @@ const images = [
         <div class="columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">
           <div v-for="img in images" :key="img" class="break-inside-avoid">
             <img 
-              :src="`/${img}`" 
+              :src="`${baseURL}${img}`" 
               class="w-full rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 border border-slate-200"
               alt="Surfboard detail"
             />
