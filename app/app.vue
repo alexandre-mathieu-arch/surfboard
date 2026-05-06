@@ -167,6 +167,13 @@ const images = [
           >
             Instagram
           </a>
+          <a 
+            href="https://www.facebook.com/share/1ELBbu4pBJ/" 
+            target="_blank"
+            class="text-slate-900 font-medium border-b border-slate-900 hover:text-slate-500 hover:border-slate-500 transition-all"
+          >
+            Facebook
+          </a>
         </div>
 
         <p class="text-slate-300 text-[10px] tracking-[0.2em] uppercase">2026 &copy; Bali Surfboard Sale</p>
