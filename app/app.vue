@@ -33,7 +33,7 @@ const images = [
       <header class="mb-16">
         <div class="flex flex-col md:flex-row md:items-baseline justify-between gap-2 mb-4">
           <h1 class="text-3xl md:text-5xl font-light tracking-tight text-slate-900">
-            Surfboard for Sale <span class="text-slate-400 font-extralight ml-2">6'2" — 36L</span>
+            The 6'2" Daily <span class="text-slate-400 font-extralight ml-2">36L — Surfboard for Sale</span>
           </h1>
           <p class="text-xl font-medium text-slate-500 uppercase tracking-widest text-sm md:text-base">South Bali • Jimbaran</p>
         </div>
