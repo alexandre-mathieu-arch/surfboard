@@ -87,7 +87,7 @@ const images = [
           <ul class="space-y-4 text-slate-700">
             <li class="flex items-center gap-2">
               <span class="w-1 h-1 bg-slate-400 rounded-full"></span>
-              3x Futures Honey Comb Fins
+              3x Futures Honeycomb Fins
             </li>
             <li class="flex items-center gap-2">
               <span class="w-1 h-1 bg-slate-400 rounded-full"></span>
