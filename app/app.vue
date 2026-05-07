@@ -10,6 +10,7 @@ const images = [
   { name: 'IMG_20240217_190752.jpg', current: false },
   { name: 'IMG_20240217_190858.jpg', current: false },
   { name: 'IMG_20240217_192629.jpg', current: false },
+  { name: 'IMG_20240218_170032.jpg', current: false },
   { name: 'IMG_20240218_174710.jpg', current: false },
   { name: 'IMG_20240218_203131.jpg', current: false },
   { name: 'IMG_20240218_204236.jpg', current: false },
@@ -33,15 +34,28 @@ const images = [
       <header class="mb-16">
         <div class="flex flex-col md:flex-row md:items-baseline justify-between gap-2 mb-4">
           <h1 class="text-3xl md:text-5xl font-light tracking-tight text-slate-900">
-            The 6'2" Daily <span class="text-slate-400 font-extralight ml-2">36L — Surfboard for Sale</span>
+            6'2" Allround for sale:
           </h1>
           <p class="text-xl font-medium text-slate-500 uppercase tracking-widest text-sm md:text-base">South Bali • Jimbaran</p>
         </div>
         
-        <div class="mb-8">
+        <p class="text-xl text-slate-600 mb-4 font-light italic">
+          Surfboard + complete accessories ready for the water
+        </p>
+
+        <div class="mb-8 flex items-center gap-4">
           <span class="inline-block px-3 py-1 bg-slate-100 text-slate-600 text-xs font-semibold uppercase tracking-widest rounded">
             Second Hand • Excellent Condition
           </span>
+          <a href="#contact" class="text-xs font-bold uppercase tracking-widest border-b-2 border-slate-900 pb-0.5 hover:text-slate-500 hover:border-slate-500 transition-all">
+            Get in touch
+          </a>
+        </div>
+
+        <div class="prose prose-slate mb-8">
+          <p class="text-slate-600 italic">
+            "Selling my board because I am moving."
+          </p>
         </div>
 
         <!-- Hero Image -->
@@ -57,8 +71,11 @@ const images = [
         </div>
 
         <div class="flex flex-wrap gap-4 items-baseline justify-between border-b border-slate-100 pb-8">
-          <p class="text-3xl font-medium">Rp 5.000.000</p>
-          <p class="text-slate-400 italic">Price all included</p>
+          <div class="flex flex-col">
+            <p class="text-slate-400 text-sm uppercase tracking-widest font-semibold mb-1">All included</p>
+            <p class="text-4xl font-medium text-slate-900">Rp 4.950.000</p>
+          </div>
+          <p class="text-slate-400 italic">Complete pack</p>
         </div>
       </header>
 
@@ -76,6 +93,10 @@ const images = [
               <span class="font-medium">36 Liters</span>
             </li>
             <li class="flex justify-between border-b border-slate-100 pb-2">
+              <span class="text-slate-500">Material</span>
+              <span class="font-medium">PU (polyurethane)</span>
+            </li>
+            <li class="flex justify-between border-b border-slate-100 pb-2">
               <span class="text-slate-500">Fin System</span>
               <span class="font-medium">Thruster (Futures)</span>
             </li>
@@ -83,15 +104,28 @@ const images = [
         </div>
 
         <div>
-          <h2 class="text-xs uppercase tracking-widest font-semibold text-slate-400 mb-8">Included</h2>
+          <h2 class="text-xs uppercase tracking-widest font-semibold text-slate-400 mb-8">Included Pack</h2>
           <ul class="space-y-4 text-slate-700">
-            <li class="flex items-center gap-2">
-              <span class="w-1 h-1 bg-slate-400 rounded-full"></span>
-              3x Futures Honeycomb Fins
+            <li class="flex flex-col border-b border-slate-100 pb-2">
+              <div class="flex items-center gap-2">
+                <span class="w-1 h-1 bg-slate-400 rounded-full"></span>
+                <span class="font-medium">Surfboard Colorsurf All-round 6'2"</span>
+              </div>
+              <span class="text-xs text-slate-400 ml-3">Shaped by Chris Cutch (Channel Islands). New value: Rp 7,000,000</span>
             </li>
-            <li class="flex items-center gap-2">
-              <span class="w-1 h-1 bg-slate-400 rounded-full"></span>
-              Dakine Leash
+            <li class="flex flex-col border-b border-slate-100 pb-2">
+              <div class="flex items-center gap-2">
+                <span class="w-1 h-1 bg-slate-400 rounded-full"></span>
+                <span class="font-medium">Futures Fins Signature</span>
+              </div>
+              <span class="text-xs text-slate-400 ml-3">New value: Rp 1,850,000</span>
+            </li>
+            <li class="flex flex-col border-b border-slate-100 pb-2">
+              <div class="flex items-center gap-2">
+                <span class="w-1 h-1 bg-slate-400 rounded-full"></span>
+                <span class="font-medium">Leash Dakine Kainui Plus</span>
+              </div>
+              <span class="text-xs text-slate-400 ml-3">New value: Rp 599,000</span>
             </li>
           </ul>
         </div>
@@ -99,8 +133,11 @@ const images = [
 
       <!-- About the Board -->
       <section class="mb-24">
-        <h2 class="text-xs uppercase tracking-widest font-semibold text-slate-400 mb-8">Performance & Conditions</h2>
+        <h2 class="text-xs uppercase tracking-widest font-semibold text-slate-400 mb-8">Performance & Origin</h2>
         <div class="prose prose-slate max-w-none text-slate-600 leading-relaxed space-y-6">
+          <p>
+            This is a <strong>COLORSURF</strong> board shaped by <strong>Chris Cutch</strong>. Chris is a renowned local shaper who also shapes for <strong>Channel Islands Surfboards</strong>. This board features the same technical and performance characteristics as an <strong>Al Merrick</strong> board.
+          </p>
           <p>
             Designed with generous volume, this board is exceptionally easy to paddle and catches waves effortlessly, even in smaller conditions. Ideal for chill sessions or intermediate surfers aiming to progress.
           </p>
@@ -117,7 +154,7 @@ const images = [
           <div>
             <p class="text-sm font-medium text-slate-900 mb-2">History</p>
             <p class="text-slate-600 text-sm leading-relaxed">
-              Purchased new in 2023. Ridden for ~30 sessions. Meticulously stored in clean/dry conditions since late 2023. Light deck pressure marks, one minor rail compression.
+              Purchased new in 2024. Ridden for ~30 sessions. Meticulously stored in clean/dry conditions since late 2024. Light deck pressure marks, one minor rail compression.
             </p>
           </div>
           <div class="md:border-l md:border-slate-200 md:pl-8">
@@ -149,7 +186,7 @@ const images = [
       </section>
 
       <!-- Contact / Footer -->
-      <footer class="mt-32 pt-16 border-t border-slate-100 text-center">
+      <footer id="contact" class="mt-32 pt-16 border-t border-slate-100 text-center">
         <p class="text-slate-400 text-sm mb-10 italic">Contact for details or viewing</p>
         
         <div class="flex flex-col sm:flex-row justify-center items-center gap-8 mb-20">
